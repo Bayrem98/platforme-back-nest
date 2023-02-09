@@ -18,4 +18,6 @@ export default class UpdateBookDto {
   language?: string;
   @IsOptional()
   theme: string;
+  @IsOptional()
+  audio: string;
 }

@@ -6,4 +6,5 @@ export default class CreateBookDto {
   pdfPath: string;
   language: string;
   theme: string;
+  audio: string;
 }

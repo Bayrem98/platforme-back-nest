@@ -6,4 +6,5 @@ export interface Book {
   pdfPath: string;
   language: string;
   theme: string;
+  audio: string;
 }

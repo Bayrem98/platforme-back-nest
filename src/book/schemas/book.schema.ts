@@ -19,6 +19,8 @@ export class Book {
   language: string;
   @Prop({ required: true, type: String })
   theme: string;
+  @Prop({ required: true, type: String })
+  audio: string;
 }
 
 export const BookSchema = SchemaFactory.createForClass(Book);
