@@ -10,7 +10,7 @@ import { TableModule } from './table/table.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/platdb'),
+    MongooseModule.forRoot('mongodb://localhost:27017/biblio'),
     UserModule,
     AuthModule,
     BookModule,
